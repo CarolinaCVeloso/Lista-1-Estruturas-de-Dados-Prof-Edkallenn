@@ -40,7 +40,6 @@ int main(void) {
         }
     }
 
-    //Desafio:
     FILE *arquivo = fopen("arquivoResposta.txt", "w");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo para salvar o resultado.\n");
